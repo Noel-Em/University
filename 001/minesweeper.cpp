@@ -77,7 +77,6 @@ bool Game(int difficulty)
         switch (choice)
         {
         case '1':
-            cout << &map.mapCharacters << endl << &map.mapCharacters[0] << endl << &map.mapCharacters[0][0] << endl << (map.mapCharacters == &map.mapCharacters[0]) << endl;
             map.View();
             choice = 0;
             break;
