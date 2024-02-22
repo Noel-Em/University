@@ -1,3 +1,5 @@
+//This code is for testing purposes and I'm making it to improve my C++ skills and to verify them
+
 #include <iostream>
 #include <random>
 using namespace std;
