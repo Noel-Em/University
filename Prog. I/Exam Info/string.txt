@@ -1,0 +1,17 @@
+Così come per le funzioni matematiche e quelle sui
+caratteri, il linguaggio C/C++ ha una ricca libreria dicaratteri, il linguaggio C/C++ ha una ricca libreria di
+funzioni per la gestione delle stringhe, presentata infunzioni per la gestione delle stringhe, presentata in
+<cstring><cstring> ((string.hstring.h in C)in C)
+
+ strcpy(stringa1, stringa2)strcpy(stringa1, stringa2)
+copia il contenuto di stringa2 in stringa1 (sovrascrive)copia il contenuto di stringa2 in stringa1 (sovrascrive)
+
+ strncpy(stringa1, stringa2, n)strncpy(stringa1, stringa2, n)
+copia i primi n caratteri di stringa2 in stringa1copia i primi n caratteri di stringa2 in stringa1
+
+ strcat(stringa1, stringa2)strcat(stringa1, stringa2)
+concatena il contenuto di stringa2 a stringa1concatena il contenuto di stringa2 a stringa1
+
+ strcmp(stringa1, stringa2)strcmp(stringa1, stringa2)
+confronta stringa2 con stringa1: 0 (uguali), >0confronta stringa2 con stringa1: 0 (uguali), >0
+(stringa1 è maggiore di stringa 2), <0 (viceversa)(stringa1 è maggiore di stringa 2), <0 (viceversa)
